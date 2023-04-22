@@ -17,7 +17,7 @@ const requests=axios.create({
     // 基础路径，发送请求的时候，路径中会出现api
     baseURL:'/api',
     // 代表请求超时的时间
-    timeout:5000,
+    timeout:4000,
     
 })
 
